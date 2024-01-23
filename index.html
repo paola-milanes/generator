@@ -6,11 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generator</title>
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
-    <h1>
-        Hello world
-    </h1>
+    <div id="main-container" class="main-container">
+
+    
+        <header>
+            <h1>
+                AI Spanish Poem Generator
+            </h1>
+        </header>
+        
+            <div class="search-container">
+             <main>
+            
+                <form id="poem-generator">
+                    <input id="searchbar"
+                    type="text" 
+                    placeholder="Enter here"
+                    required/> 
+                    <input id="submitbutton"
+                    type="submit" />
+                    
+                </form>
+
+
+            </main>
+         </div>
+         
+            <div class="poem-container">
+
+            
+                    <div id="poem"></div>
+
+            </div>
+                 <footer id = "footer"> 
+                    coded by
+                            <a href="https://github.com/paola-milanes" id="gitHubLink"target="_blank">Paola Milanes </a>
+                    code hosted on 
+                            <a href="https://github.com/paola-milanes/vanilla-weatherapp0" id="appLink"> GitHub</a>
+                    and website hosted on 
+                            <a href="world-clock-check.netlify.app" id="netlifyLink"> Netlify</a>
+                </footer>
+        </div>
     <script src="src/index.js"></script>
 </body>
 </html>

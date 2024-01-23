@@ -1,3 +1,59 @@
-h1{
-    background-color: blue;
+body{
+    background-color:#F9F7FE ;
+}
+#main-container{
+    text-align: center;
+    
+   
+}
+.poem-container{
+    background-color:white;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 30px;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#searchbar{
+    border-radius: 30px;
+    border-color: #F9F7FE;
+    /* border: #9f79ff; */
+    padding-left: 20px;
+    padding-right: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+    background-color: rgba(255, 192, 203, 0.213) !important;
+   
+}
+
+
+
+
+#submitbutton{
+    border-radius: 30px;
+    border-color: #F9F7FE; 
+    padding-left: 20px;
+    padding-right: 20px;
+      padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 192, 203, 0.181);
+}
+.search-container{
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer{
+    padding-top: 20px;
+    color: rgba(132, 132, 132, 0.527);
+}
+
+#gitHubLink, #appLink,#netlifyLink{
+   color: pink;
 }
