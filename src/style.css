@@ -2,6 +2,7 @@ body{
     background-color:#F9F7FE ;
 }
 #main-container{
+    padding-top: 80px;
     text-align: center;
     
    
@@ -9,12 +10,15 @@ body{
 .poem-container{
     background-color:white;
     border-radius: 10px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: 30px;
     background-color: white;
     padding-top: 30px;
     padding-bottom: 30px;
+    border-left: 10px solid;
+    border-left-color: palevioletred ;
+    
 }
 #searchbar{
     border-radius: 30px;
@@ -43,11 +47,15 @@ body{
 }
 .search-container{
     border-radius: 10px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 300px;
+    margin-right: 300px;
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+#example{
+    margin-right: 300px;
+    opacity: .5;
 }
 footer{
     padding-top: 20px;

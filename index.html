@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generator</title>
     <link rel="stylesheet" href="src/style.css">
+   <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
@@ -24,21 +25,22 @@
                 <form id="poem-generator">
                     <input id="searchbar"
                     type="text" 
-                    placeholder="Enter here"
+                    placeholder="Enter a topic... "
                     required/> 
                     <input id="submitbutton"
                     type="submit" />
                     
                 </form>
-
-
+                <small id="example">
+                    i.e: Flowers, Paris, Cheese
+                </small>
             </main>
          </div>
-         
+
             <div class="poem-container">
 
             
-                    <div id="poem"></div>
+                    <div class="poemHidden"id="poem"></div>
 
             </div>
                  <footer id = "footer"> 
