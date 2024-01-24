@@ -14,7 +14,7 @@ function addpoem(event){
     
      let prompt = `generate a spanish poem about ${searchbar.value}`;
      console.log(prompt)
-     let context = "you are a romantic poem expert.your misson is to generation a 5 line poem in basic HTML. seperate each line with a <br/>, make sure to follow the user instructions below. do not use a title";
+     let context = "you are a romantic poem expert.your misson is to generation a 6 line poem in basic HTML. seperate each line with a <br/>, make sure to follow the user instructions below. do not use a title";
      let apiKey = "9afc5146bea2t731f3ee989f0a290f4o";
      let url =
        `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
